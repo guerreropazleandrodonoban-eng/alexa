@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Un Detalle Especial</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- Fuentes Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Fondo de pétalos cayendo -->
+  <div id="petals-container"></div>
+
+  <!-- Tarjeta Principal (Portada Fija) -->
+  <main class="card-container">
+    
+    <!-- Encabezado -->
+    <header class="card-header">
+      <span class="sub-tag">Un pequeño detalle</span>
+      <h1>Para una persona especial</h1>
+      <div class="divider"></div>
+    </header>
+
+    <!-- Pestañas de navegación -->
+    <nav class="tab-nav">
+      <button class="tab-btn active" onclick="switchTab('aprecio')">Aprecio</button>
+      <button class="tab-btn" onclick="switchTab('fe')">Reflexión & Fe</button>
+    </nav>
+
+    <!-- Contenido de las pestañas -->
+    <div class="content-area">
+      
+      <!-- Pestaña 1: Aprecio -->
+      <section id="tab-aprecio" class="tab-content active">
+        <p class="main-text">
+          Hay personas que aportan una luz especial a quienes las rodean. Aprecio profundamente tu forma de ser, tus proyectos y el esfuerzo que pones en cada paso que das. Cuenta siempre con mi apoyo incondicional.
+        </p>
+      </section>
+
+      <!-- Pestaña 2: Reflexión y Fe -->
+      <section id="tab-fe" class="tab-content">
+        <blockquote class="quote-box">
+          <p class="quote-text">
+            "Dejo en las manos de Dios cada paso y cada anhelo, confiando en su tiempo perfecto para poder estar a tu lado y acompañarte en el camino."
+          </p>
+          <cite class="quote-ref">— En fe y confianza</cite>
+        </blockquote>
+      </section>
+
+    </div>
+
+    <!-- Pie de Tarjeta -->
+    <footer class="card-footer">
+      <p>Con mucho respeto y aprecio ✨</p>
+    </footer>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
